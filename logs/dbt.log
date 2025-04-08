@@ -1,0 +1,29 @@
+[0m20:05:45.416697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AEC6454C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AEE81A180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AECB6B290>]}
+
+
+============================== 20:05:45.424698 | dd8b8bc2-a756-487f-9690-34927db2f606 ==============================
+[0m20:05:45.424698 [info ] [MainThread]: Running with dbt=1.9.4
+[0m20:05:45.426697 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Elvo\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:06:22.523338 [debug] [MainThread]: Starter project path: C:\Users\Elvo\Desktop\dbt_sales\dbt-venv\Lib\site-packages\dbt\include\starter_project
+[0m20:06:22.592512 [info ] [MainThread]: 
+Your new dbt project "sales_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:06:22.601477 [info ] [MainThread]: Setting up your profile.
+[0m20:09:01.773435 [info ] [MainThread]: Profile sales_analytics written to C:\Users\Elvo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:09:01.777444 [debug] [MainThread]: Command `dbt init` succeeded at 20:09:01.776444 after 196.69 seconds
+[0m20:09:01.777444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AEC6454C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AEF2FFA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AEEAC0440>]}
+[0m20:09:01.778439 [debug] [MainThread]: Flushing usage events
+[0m20:09:02.860932 [debug] [MainThread]: An error was encountered while trying to flush usage events
